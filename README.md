@@ -42,3 +42,7 @@ when constructing forwarding table at the source
 Implement Dijkstra algorithm that takes a graph and 1 source vertex, determines shortest path to all
 other vertices from the source and forms the forwarding table at the source. Call this algorithm n-k
 times to produce desired results.
+
+Test cases will be run with redirection of the input, such as for example
+java LinkState < in1.txt
+where file in1.txt will contain a particular input.
